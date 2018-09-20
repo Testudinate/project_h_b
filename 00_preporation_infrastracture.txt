@@ -1,0 +1,44 @@
+0. articles
+
+https://info-comp.ru/sisadminst/598-install-postgresql-10-on-ubuntu-server.html
+https://ivit.pro/services/avail-services/   --scanning ports
+
+echo '<USER> ALL=(ALL) ALL' >> /etc/sudoers --adding grant to use sudo apt-get install for new users
+
+1. steps for installing Postgresql
+
+1.1 sudo -i
+
+1.2 apt-cache search postgresql-10
+
+1.3 apt-get -y install postgresql-10
+
+1.4 systemctl status postgresql
+
+2. steps for create db, users and add grants
+
+2.1 su - postgres
+
+2.2 psql
+
+2.3 \password postgres 
+
+2.4 create user testuser with password '123456';
+
+2.5 create database testdb;
+
+2.6 grant all privileges on database testdb to testuser;
+
+2.7 \q
+
+2.8 psql -h localhost testdb testuser
+
+3 steps for openning access to db from other IP.
+
+3.1 nano /etc/postgresql/10/main/postgresql.conf
+
+3.2 listen_addresses = '*'
+
+3.3 systemctl restart postgresql
+
+3.4 systemctl status postgresql
