@@ -185,7 +185,7 @@ function handleResult(asrevent) {
           //call.addEventListener(CallEvents.PlaybackFinished, () => { 
           player.addEventListener(PlayerEvents.PlaybackFinished, () => {
           
-            Net.httpRequest("https://sms.ru/sms/send?api_id=а45ка4ккк&to="+ phone_number +"&msg=https://hr-bot.typeform.com/to/fmLaWN&json=1", function(e) {
+            Net.httpRequest("https://sms.ru/sms/send?api_id=а45ка4ккк&to="+ phone_number +"&msg=https://.com/to/fmLaWN&json=1", function(e) {
 						  if(e.code == 200) { 
 							  Logger.write("Connected successfully");
 								Logger.write("code:  " + e.code);
