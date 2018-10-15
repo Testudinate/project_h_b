@@ -1,0 +1,3 @@
+https://clearbridgemobile.com/how-to-develop-a-google-assistant-app-implementing-google-calendar-api/
+
+https://clearbridgemobile.com/develop-google-assistant-app-creating-a-fulfillment-dialogflow/#howtowebhook
