@@ -4,3 +4,6 @@ test
 
 https://www.youtube.com/watch?v=_qzOlJ92ryk
 https://www.youtube.com/watch?v=5orc_odzbvI
+
+Авторизация через requests
+https://www.youtube.com/watch?v=kO8AHedGh8o
