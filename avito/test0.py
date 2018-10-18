@@ -1,3 +1,7 @@
+#Автор 
+#Igor Kh 
+#https://www.youtube.com/channel/UCSgiQqbW5j9xOZqSJafi_VQ
+
 import requests
 from lxml import html
 import urllib.parse
